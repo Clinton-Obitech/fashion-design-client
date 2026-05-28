@@ -120,6 +120,7 @@ export default function SetDesignerShop() {
 
                 <label>bio
                     <textarea
+                    placeholder="enter your bio..."
                     value={shop.bio}
                     onChange={(e) => setShop(prev => ({...prev, bio: e.target.value}))}
                     />
