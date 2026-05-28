@@ -23,6 +23,10 @@
     border: 1.5px solid var(--borderColor);
 }
 
+.Auth form {
+    background-color: green;
+}
+
 .Auth label {
     display: flex;
     flex-direction: row;
