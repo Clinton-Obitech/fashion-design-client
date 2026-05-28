@@ -30,13 +30,16 @@
 }
 
 .Auth form label {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    text-transform: capitalize;
 }
 
 .Auth form input {
     background-color: var(--onTopBg);
     color: var(--onTopBgText);
+    width: 100%;
 }
 
 .Auth form input::placeholder {
