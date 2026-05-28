@@ -1,6 +1,7 @@
 .Auth {
     background-color: var(--bgColor);
     margin: 2rem 1rem;
+    padding: 1rem 0.5rem 0.5rem;
     color: var(--bgTextColor);
     text-transform: capitalize;
     display: flex;
@@ -12,10 +13,6 @@
 .Auth h1 {
     padding: 0 3rem;
     text-align: center;
-}
-
-.Auth form {
-    padding: 0 0.5rem;
 }
 
 .Auth legend {
