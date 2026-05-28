@@ -69,8 +69,8 @@ header > i {
 }
 
 .getStarted .chooseGuide {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     gap: 1rem;
     text-transform: capitalize;
