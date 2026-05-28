@@ -29,14 +29,6 @@
     display: flex;
 }
 
-.Auth label {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.5rem;
-    position: relative;
-}
-
 .Auth form input {
     background-color: var(--onTopBg);
     color: var(--onTopBgText);
