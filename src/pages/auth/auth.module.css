@@ -1,7 +1,7 @@
 .Auth {
     background-color: var(--bgColor);
     margin: 2rem 1rem;
-    padding: 2rem 1rem 1rem;
+    padding: 2rem 0rem 1rem;
     color: var(--bgTextColor);
     text-transform: capitalize;
     display: flex;
