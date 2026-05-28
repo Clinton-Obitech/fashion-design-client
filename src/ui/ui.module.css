@@ -93,6 +93,10 @@
     gap: 1rem;
 }
 
+.DesignerNav i {
+    font-size: 1.5rem;
+}
+
 .DesignerNav .dropDown nav {
     display: flex;
     flex-direction: column;
