@@ -29,6 +29,11 @@
     border: 1.5px solid var(--borderColor);
 }
 
+.Auth form {
+    display: flex;
+    flex-direction: column;
+}
+
 .Auth label {
     display: flex;
     flex-direction: row;
