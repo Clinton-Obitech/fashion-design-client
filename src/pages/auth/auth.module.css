@@ -1,12 +1,8 @@
 .Auth {
     background-color: var(--bgColor);
-    margin: 2rem 1rem;
-    padding: 2rem 1rem;
-    color: var(--bgTextColor);
     text-transform: capitalize;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     border-radius: 10px;
 }
 
@@ -23,8 +19,6 @@
 .Auth fieldset {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 1rem;
     padding: 0.5rem;
     border-radius: 10px;
