@@ -29,6 +29,11 @@
     gap: 1rem;
 }
 
+.Auth form label {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 .Auth form input {
     background-color: var(--onTopBg);
     color: var(--onTopBgText);
