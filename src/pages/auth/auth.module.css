@@ -31,14 +31,14 @@
 }
 
 .Auth label {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
     gap: 0.5rem;
     position: relative;
 }
 
 .Auth form input {
-    flex-grow: 1;
     background-color: var(--onTopBg);
     color: var(--onTopBgText);
 }
