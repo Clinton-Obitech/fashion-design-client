@@ -28,9 +28,21 @@ export default function DesignerShop() {
 
                 <h2>{username || "username"}</h2>
 
-                <i style={{
+                {!shop ? (
+                    <i style={{
                     fontSize: "10rem"
-                }} className="bi bi-shop"></i>
+                     }} className="bi bi-shop"></i>
+                ) : (
+                    <>
+                    <h3>{shop.fashion_sex} designer</h3>
+                    <h5>{shop.bio}</h5>
+                    <ul>
+                        {shop.fashion_skills.map(skill => (
+                            <li>{skill}</li>
+                        ))}
+                    </ul>
+                    </>
+                )}
 
                 <Link to="/set/shop">{shop ? "update shop" : "set shop"}</Link>
             </div>    
