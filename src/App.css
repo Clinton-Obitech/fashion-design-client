@@ -72,7 +72,7 @@ header > i {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 1rem;
+    gap: 2rem;
     text-transform: capitalize;
 }
 
