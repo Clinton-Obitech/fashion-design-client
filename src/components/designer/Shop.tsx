@@ -36,11 +36,6 @@ export default function DesignerShop() {
                     <>
                     <h3>{shop.fashion_sex} designer</h3>
                     <h5>{shop.bio}</h5>
-                    <ul>
-                        {shop.fashion_skills.map(skill => (
-                            <li>{skill}</li>
-                        ))}
-                    </ul>
                     </>
                 )}
 
