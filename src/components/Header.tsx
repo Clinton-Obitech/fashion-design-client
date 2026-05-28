@@ -6,11 +6,32 @@ import styles from "./components.module.css"
 export function HomeHeader() {
     return (
         <header className={styles.HomeHeader}>
+            <div>fashion design app</div>
             <div>
                 <Link to="/login/user">login</Link>
+                <AppMode />
+            </div>
+        </header>
+    )
+}
+
+export function StartHeader() {
+
+    const goBack = () => {
+        window.history.back();
+    }
+
+    return (
+        <header className={styles.StartedHeader}>
+            <div>
+                <i onClick={goBack} className="bi bi-arrow-left-circle"></i>
                 <div>fashion design app</div>
             </div>
-            <AppMode />
+
+            <div className={styles.end}>
+                <Link to="/login/user">login</Link>
+                <AppMode />
+            </div>
         </header>
     )
 }

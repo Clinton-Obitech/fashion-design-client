@@ -4,6 +4,15 @@
     gap: 0.5rem;
 }
 
+.HomeHeader > div i {
+    font-size: 1.5rem;
+}
+
+.StartedHeader > .end i {
+    font-size: 1.5rem;
+}
+
+
 .DashHeader {
     background-color: transparent;
 }

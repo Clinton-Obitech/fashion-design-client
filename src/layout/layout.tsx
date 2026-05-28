@@ -1,5 +1,5 @@
 import { Navigate, Outlet } from "react-router-dom";
-import { AuthHeader, DashHeader, HomeHeader, UserHeader } from "../components/Header";
+import { AuthHeader, DashHeader, HomeHeader, StartHeader, UserHeader } from "../components/Header";
 import styles from "./layout.module.css";
 import { useContext } from "react";
 import { LoggedContext } from "../context/LoggedContext";
@@ -28,6 +28,17 @@ export function AuthLayout() {
     return (
         <div>
             <AuthHeader />
+            <main>
+                <Outlet />
+            </main>
+        </div>
+    )
+}
+
+export function StartedLayout() {
+    return (
+        <div>
+            <StartHeader />
             <main>
                 <Outlet />
             </main>

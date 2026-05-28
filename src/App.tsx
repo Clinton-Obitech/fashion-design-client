@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/Home";
-import { AuthLayout, DashboardLayout, HomeLayout, UserLayout } from "./layout/layout";
+import { AuthLayout, DashboardLayout, HomeLayout, StartedLayout, UserLayout } from "./layout/layout";
 import GetStarted from "./pages/Get-Started";
 import CreateUser from "./pages/auth/user/Sign-Up";
 import LoginUser from "./pages/auth/user/Sign-In";
@@ -18,6 +18,9 @@ export default function App() {
         <Routes>
             <Route element={<HomeLayout />}>
                 <Route path="/" element={<HomePage />} />
+            </Route>
+
+            <Route element={<StartedLayout />}>
                 <Route path="/get/started" element={<GetStarted />} />
             </Route>
 

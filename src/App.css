@@ -17,18 +17,17 @@ header > div {
 }
 
 header > div i {
-    font-size: 2rem;
     color: var(--bgTextColor);
+    border-radius: 10px;
+    font-size: 2rem;
     text-shadow: none;
 }
 
 header > i {
     color: var(--bgTextColor);
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-shadow: none;
-    border: 1.5px solid var(--borderColor);
-    padding: 0.5rem 0.7rem;
 }
 
 .home {
@@ -38,11 +37,7 @@ header > i {
     gap: 2rem;
     padding: 3rem;
     border-radius: 10px;
-    position: absolute;
-    width: 90%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 2rem 1rem;
 }
 
 .home a {
@@ -53,6 +48,8 @@ header > i {
     text-transform: uppercase;
     color: var(--bgTextColor);
     text-align: center;
+    line-height: 1.3;
+    font-size: 2.5rem;
 }
 
 .getStarted {
