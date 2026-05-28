@@ -81,7 +81,7 @@
 
 .SetShop form input {
     background-color: var(--onTopBg);
-    flex-grow: 1;
+    width: 100%;
     padding: 0.8rem;
 }
 
@@ -89,6 +89,7 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    white-space: nowrap;
 }
 
 .SetShop form label.file {
