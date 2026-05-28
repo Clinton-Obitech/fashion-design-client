@@ -34,6 +34,7 @@
 
 .Shop h1 {
     text-transform: uppercase;
+    text-align: center;
 }
 
 .Shop h2 {
@@ -48,13 +49,15 @@
 }
 
 .Shop > i {
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: var(--onTopBg);
     padding: 0.5rem;
     display: flex;
+    flex-direction: row;
     gap: 0.5rem;
     align-items: center;
     border-radius: 10px;
+    color: var(--onTopBgText);
 }
 
 .Shop > i:first-child {
@@ -63,14 +66,11 @@
 
 .Shop > i span {
     background-color: var(--onTopBgText);
-    font-size: 1.4rem;
-    padding: 0.5rem;
+    font-size: 1rem;
+    padding: 1rem;
     border-radius: 10px;
-}
-
-.shop .info i {
-    font-size: 3.5rem;
-    background-color: red;
+    text-transform: capitalize;
+    color: var(--borderColor);
 }
 
 .SetShop h1 {
