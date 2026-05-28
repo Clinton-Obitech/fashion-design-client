@@ -43,12 +43,34 @@
 .Shop img {
     border-radius: 50%;
     box-shadow: 0px 0px 5px black;
-    object-fit: cover;
+    object-fit: fill;
     object-position: center;
 }
 
-.Shop i {
-    font-size: 6rem;
+.Shop > i {
+    font-size: 2rem;
+    background-color: var(--onTopBg);
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Shop > i:first-child {
+    font-size: 5rem;
+}
+
+.Shop > i span {
+    background-color: var(--onTopBgText);
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.shop .info i {
+    font-size: 3.5rem;
+    background-color: red;
 }
 
 .SetShop h1 {

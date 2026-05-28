@@ -23,7 +23,7 @@ export default function DesignerShop() {
 
                 {!shop?.profile_pic ? 
                 <i className="bi bi-person-circle"></i> 
-                : <img src={shop?.profile_pic} width={200} height={200}
+                : <img src={shop?.profile_pic} width={150} height={150}
                 />}
 
                 <h2>{username || "username"}</h2>
@@ -34,10 +34,17 @@ export default function DesignerShop() {
                      }} className="bi bi-shop"></i>
                 ) : (
                     <>
-                    <h3>{shop.fashion_sex} designer</h3>
-                    <h5>{shop.bio}</h5>
+                        <i className="fa-solid fa-scissors">
+                            <span>{shop.fashion_sex} designer</span>
+                        </i>
 
-                    <div>{shop.fashion_skills}</div>
+                        <i className="fa-solid fa-user-pen">
+                        <span>{shop.bio}</span>
+                        </i>
+   
+                        <div>
+                        {shop.fashion_skills}
+                        </div>
                     </>
                 )}
 
