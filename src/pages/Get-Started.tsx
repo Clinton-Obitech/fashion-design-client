@@ -16,12 +16,12 @@ export default function GetStarted() {
 
                     <div onClick={() => setShowDesigner(true)}>
                         are you a designer?
-                        <img src={DesignerImage} width={150} height={150}/>
+                        <img src={DesignerImage} />
                     </div>
 
                     <div onClick={() => setShowCustomer(true)}>
                         are you a customer?
-                        <img src={CustomerImage} width={150} height={150}/>
+                        <img src={CustomerImage} />
                     </div>
 
                 </div>

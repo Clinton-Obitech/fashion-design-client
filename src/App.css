@@ -69,10 +69,15 @@ header > i {
 }
 
 .getStarted .chooseGuide {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
     gap: 1rem;
     text-transform: capitalize;
+}
+
+.getStarted .chooseGuide img {
+    width: 100%;
 }
 
 .getStarted .chooseGuide > div {
