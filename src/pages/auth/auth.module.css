@@ -1,14 +1,11 @@
 .Auth {
     background-color: var(--bgColor);
     margin: 2rem 1rem;
-    padding: 2rem 0rem 1rem;
     color: var(--bgTextColor);
     text-transform: capitalize;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    justify-content: center;
-    align-items: center;
     border-radius: 10px;
 }
 
